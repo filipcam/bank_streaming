@@ -15,7 +15,11 @@ RUN python3 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
 COPY requirements.txt /tmp/requirements.txt
-RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+RUN pip install --upgrade pip setuptools wheel
+RUN pip install --no-cache-dir --default-timeout=1000 --resume-retries 10 \
+    torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+RUN pip install --no-cache-dir --default-timeout=1000 --resume-retries 10 -r /tmp/requirements.txt
 
 WORKDIR /home/coder/workspace
 
