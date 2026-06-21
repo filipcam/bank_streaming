@@ -1,17 +1,16 @@
 services:
-
-code-server:
-  build:
-    context: .
-    dockerfile: Docker/vscode/Dockerfile
-  container_name: code_server_bank_lab
-  ports:
-    - "127.0.0.1:8080:8080"
-  volumes:
-    - ./:/home/coder/workspace
-  command: --auth none --bind-addr 0.0.0.0:8080 /home/coder/workspace
-  networks:
-    - bank_net
+  code-server:
+    build:
+      context: .
+      dockerfile: Docker/vscode/Dockerfile
+    container_name: code_server_bank_lab
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - ./:/home/coder/workspace
+    command: --auth none --bind-addr 0.0.0.0:8080 /home/coder/workspace
+    networks:
+      - bank_net
 
   zookeeper:
     image: confluentinc/cp-zookeeper:7.5.0
