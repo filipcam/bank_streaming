@@ -10,12 +10,5 @@ SELECT
     title
 FROM transactions
 WHERE amount BETWEEN 30 AND 150
-  AND (
-      title ILIKE '%jedzenie%'
-      OR title ILIKE '%obiad%'
-      OR title ILIKE '%pizza%'
-      OR title ILIKE '%zakupy%'
-      OR title ILIKE '%zwrot%'
-      OR title ILIKE '%oddaje%'
-  )
+  AND title ILIKE '%jedzenie%'
 ORDER BY transaction_timestamp DESC;
