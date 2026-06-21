@@ -20,3 +20,8 @@ CREATE INDEX IF NOT EXISTS idx_transactions_amount
 
 CREATE INDEX IF NOT EXISTS idx_transactions_title
     ON transactions (title);
+
+CREATE INDEX IF NOT EXISTS idx_transactions_title_embedding
+    ON transactions
+    USING ivfflat (title_embedding vector_cosine_ops)
+    WITH (lists = 100);
