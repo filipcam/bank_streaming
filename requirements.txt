@@ -1,0 +1,8 @@
+jupyter
+kafka-python
+confluent-kafka
+psycopg2-binary
+sentence-transformers
+neo4j
+pandas
+pgvector

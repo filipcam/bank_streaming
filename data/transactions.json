@@ -1,0 +1,272 @@
+[
+  {
+    "sender": "user1",
+    "receiver": "user2",
+    "amount": 120.5,
+    "timestamp": "2026-05-10T10:00:00",
+    "device_sender": "devA",
+    "device_receiver": "devB",
+    "title": "zwrot za obiad"
+  },
+  {
+    "sender": "user3",
+    "receiver": "user4",
+    "amount": 75.0,
+    "timestamp": "2026-05-09T11:00:00",
+    "device_sender": "devC",
+    "device_receiver": "devD",
+    "title": "oddaje pieniadze"
+  },
+  {
+    "sender": "user5",
+    "receiver": "user6",
+    "amount": 200.0,
+    "timestamp": "2026-05-08T09:30:00",
+    "device_sender": "devE",
+    "device_receiver": "devF",
+    "title": "zwrot kosztow"
+  },
+  {
+    "sender": "user2",
+    "receiver": "user1",
+    "amount": 50.0,
+    "timestamp": "2026-05-07T14:00:00",
+    "device_sender": "devB",
+    "device_receiver": "devA",
+    "title": "zwrot za paliwo"
+  },
+  {
+    "sender": "user7",
+    "receiver": "user8",
+    "amount": 300.0,
+    "timestamp": "2026-05-06T16:00:00",
+    "device_sender": "devG",
+    "device_receiver": "devH",
+    "title": "oddaje dlug"
+  },
+  {
+    "sender": "user9",
+    "receiver": "user10",
+    "amount": 20.0,
+    "timestamp": "2026-05-10T12:00:00",
+    "device_sender": "shared1",
+    "device_receiver": "devX",
+    "title": "zakupy"
+  },
+  {
+    "sender": "user11",
+    "receiver": "user12",
+    "amount": 35.0,
+    "timestamp": "2026-05-09T13:00:00",
+    "device_sender": "shared1",
+    "device_receiver": "devY",
+    "title": "rachunek"
+  },
+  {
+    "sender": "user13",
+    "receiver": "user14",
+    "amount": 60.0,
+    "timestamp": "2026-05-08T15:00:00",
+    "device_sender": "shared1",
+    "device_receiver": "devZ",
+    "title": "przelew"
+  },
+  {
+    "sender": "user15",
+    "receiver": "user16",
+    "amount": 80.0,
+    "timestamp": "2026-05-10T09:00:00",
+    "device_sender": "shared2",
+    "device_receiver": "devA",
+    "title": "zakupy"
+  },
+  {
+    "sender": "user17",
+    "receiver": "user18",
+    "amount": 90.0,
+    "timestamp": "2026-05-09T10:00:00",
+    "device_sender": "shared2",
+    "device_receiver": "devB",
+    "title": "rachunek"
+  },
+  {
+    "sender": "user1",
+    "receiver": "user3",
+    "amount": 45.0,
+    "timestamp": "2026-05-05T10:00:00",
+    "device_sender": "devA",
+    "device_receiver": "devC",
+    "title": "pizza"
+  },
+  {
+    "sender": "user2",
+    "receiver": "user4",
+    "amount": 55.0,
+    "timestamp": "2026-05-04T11:00:00",
+    "device_sender": "devB",
+    "device_receiver": "devD",
+    "title": "kino"
+  },
+  {
+    "sender": "user3",
+    "receiver": "user5",
+    "amount": 65.0,
+    "timestamp": "2026-05-03T12:00:00",
+    "device_sender": "devC",
+    "device_receiver": "devE",
+    "title": "prezent"
+  },
+  {
+    "sender": "user4",
+    "receiver": "user6",
+    "amount": 75.0,
+    "timestamp": "2026-05-02T13:00:00",
+    "device_sender": "devD",
+    "device_receiver": "devF",
+    "title": "rachunki"
+  },
+  {
+    "sender": "user5",
+    "receiver": "user7",
+    "amount": 85.0,
+    "timestamp": "2026-05-01T14:00:00",
+    "device_sender": "devE",
+    "device_receiver": "devG",
+    "title": "czynsz"
+  },
+  {
+    "sender": "user6",
+    "receiver": "user8",
+    "amount": 95.0,
+    "timestamp": "2026-05-01T15:00:00",
+    "device_sender": "devF",
+    "device_receiver": "devH",
+    "title": "zakupy"
+  },
+  {
+    "sender": "user7",
+    "receiver": "user9",
+    "amount": 105.0,
+    "timestamp": "2026-05-02T16:00:00",
+    "device_sender": "devG",
+    "device_receiver": "devX",
+    "title": "rachunek"
+  },
+  {
+    "sender": "user8",
+    "receiver": "user10",
+    "amount": 115.0,
+    "timestamp": "2026-05-03T17:00:00",
+    "device_sender": "devH",
+    "device_receiver": "devY",
+    "title": "transport"
+  },
+  {
+    "sender": "user9",
+    "receiver": "user11",
+    "amount": 125.0,
+    "timestamp": "2026-05-04T18:00:00",
+    "device_sender": "devX",
+    "device_receiver": "devZ",
+    "title": "jedzenie"
+  },
+  {
+    "sender": "user10",
+    "receiver": "user12",
+    "amount": 135.0,
+    "timestamp": "2026-05-05T19:00:00",
+    "device_sender": "devY",
+    "device_receiver": "devA",
+    "title": "zakupy"
+  },
+  {
+    "sender": "user11",
+    "receiver": "user13",
+    "amount": 145.0,
+    "timestamp": "2026-05-06T20:00:00",
+    "device_sender": "devZ",
+    "device_receiver": "devB",
+    "title": "przelew"
+  },
+  {
+    "sender": "user12",
+    "receiver": "user14",
+    "amount": 155.0,
+    "timestamp": "2026-05-07T21:00:00",
+    "device_sender": "devA",
+    "device_receiver": "devC",
+    "title": "rachunek"
+  },
+  {
+    "sender": "user13",
+    "receiver": "user15",
+    "amount": 165.0,
+    "timestamp": "2026-05-08T22:00:00",
+    "device_sender": "devB",
+    "device_receiver": "devD",
+    "title": "transport"
+  },
+  {
+    "sender": "user14",
+    "receiver": "user16",
+    "amount": 175.0,
+    "timestamp": "2026-05-09T23:00:00",
+    "device_sender": "devC",
+    "device_receiver": "devE",
+    "title": "jedzenie"
+  },
+  {
+    "sender": "user15",
+    "receiver": "user17",
+    "amount": 185.0,
+    "timestamp": "2026-05-10T08:00:00",
+    "device_sender": "devD",
+    "device_receiver": "devF",
+    "title": "zakupy"
+  },
+  {
+    "sender": "user16",
+    "receiver": "user18",
+    "amount": 195.0,
+    "timestamp": "2026-05-08T07:00:00",
+    "device_sender": "devE",
+    "device_receiver": "devG",
+    "title": "rachunek"
+  },
+  {
+    "sender": "user17",
+    "receiver": "user19",
+    "amount": 205.0,
+    "timestamp": "2026-05-07T06:00:00",
+    "device_sender": "devF",
+    "device_receiver": "devH",
+    "title": "transport"
+  },
+  {
+    "sender": "user18",
+    "receiver": "user20",
+    "amount": 215.0,
+    "timestamp": "2026-05-06T05:00:00",
+    "device_sender": "devG",
+    "device_receiver": "devX",
+    "title": "jedzenie"
+  },
+  {
+    "sender": "user19",
+    "receiver": "user1",
+    "amount": 225.0,
+    "timestamp": "2026-05-05T04:00:00",
+    "device_sender": "devH",
+    "device_receiver": "devY",
+    "title": "zakupy"
+  },
+  {
+    "sender": "user20",
+    "receiver": "user2",
+    "amount": 235.0,
+    "timestamp": "2026-05-04T03:00:00",
+    "device_sender": "devX",
+    "device_receiver": "devZ",
+    "title": "rachunek"
+  }
+]
