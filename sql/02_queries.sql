@@ -17,7 +17,7 @@ WHERE amount BETWEEN 30 AND 150
   )
 ORDER BY transaction_timestamp DESC;
 
--- Cypher: użytkownicy korzystający z tego samego urządzenia w ciągu ostatnich 3 dni
+-- Cypher:
 MATCH (u1:User)-[:USES]->(d:Device)<-[:USES]-(u2:User)
 WHERE u1.name < u2.name
   AND EXISTS {

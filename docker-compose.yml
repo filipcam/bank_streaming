@@ -1,19 +1,15 @@
 services:
   code-server:
-    image: lscr.io/linuxserver/code-server:latest
+    build:
+      context: .
+      dockerfile: Docker/vscode/Dockerfile
     container_name: code_server_bank_lab
     ports:
-      - "127.0.0.1:8080:8443"
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Warsaw
-      - PASSWORD=changeme
-      - SUDO_PASSWORD=changeme
-      - DEFAULT_WORKSPACE=/config/workspace
+      - "127.0.0.1:8080:8080"
     volumes:
-      - ./:/config/workspace
-      - code_server_data:/config
+      - ./:/home/coder/workspace
+    environment:
+      DEFAULT_WORKSPACE: /home/coder/workspace
     networks:
       - bank_net
 
@@ -82,4 +78,3 @@ volumes:
   postgres_data:
   neo4j_data:
   neo4j_logs:
-  code_server_data:
